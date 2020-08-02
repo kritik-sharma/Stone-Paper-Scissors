@@ -1,0 +1,64 @@
+body{
+	background-color: lightgrey;
+}
+.jumbotron {
+	text-align: center;
+	margin-bottom: 3px;
+}
+div.jumbotron div.container p.lead{
+	font-style: italic;
+	font-size: large;
+}
+.scoreboard{
+	display: flex;
+	align-items: center;
+	margin-bottom: 3px;
+}
+
+div.container div.scoreboard div.disp{
+	margin: auto;
+	display: inherit;
+	background-color: black;
+	border-radius: 15px;
+	align-items: center;
+	border-color: grey;
+	border-width: 5px; 
+}
+div.container div.scoreboard div.disp div.container{
+	margin: auto;
+	display: inherit;
+	background-color: grey;
+	border-radius: 15px;
+	align-items: center;
+}
+.h2{
+	font-size: 15px;
+}
+.typestyle{
+	font-style: revert;
+    color: grey;
+    margin: 10px; 
+}
+
+.container{
+	display: block;
+	width: 100%;
+}
+
+.row{
+	display: flex;
+	color: white;
+}
+
+[class*="col-"]{
+	padding: 4px 4px; 
+	background-color: grey;
+	display: block;
+	text-align: center; 
+}
+
+.scoredisp{
+	padding-top: 2px;
+	align-items: center;
+}
+
